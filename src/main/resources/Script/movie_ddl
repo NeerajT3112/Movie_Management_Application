@@ -1,0 +1,9 @@
+   CREATE TABLE movies (
+       id BIGINT AUTO_INCREMENT PRIMARY KEY,
+       title VARCHAR(255) NOT NULL,
+       genre VARCHAR(100) NOT NULL,
+       release_year INT NOT NULL,
+       director VARCHAR(255) NOT NULL,
+       rating DOUBLE NOT NULL CHECK (rating >= 0 AND rating <= 10),
+       review_count INT DEFAULT 0 NOT NULL
+   );
