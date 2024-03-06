@@ -51,4 +51,4 @@ Replace `your_username` and `your_password` with your Oracle database credential
 - Unit tests covering all functionalities are included in the `src/test` directory. You can run the tests using Maven:
 
 ## Running Platform
-- I have run the Api's with Postman.
+- I have run the Api's with Postman and attched postmanCollection.json file.
